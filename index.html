@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>For My Love — A Card To Keep You Warm</title>
+  <meta name="description"
+    content="A handmade digital greeting card: open it for a heartfelt message, a photo of your favourite person, and a reminder that you are never alone." />
+  <meta property="og:title" content="For My Love — A Card To Keep You Warm" />
+  <meta property="og:description"
+    content="Tap to open a handmade digital greeting card filled with warmth, comfort and love." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="../favicon.ico" type="image/x-icon" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Parisienne&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Caveat:wght@400;600&display=swap" />
+
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+
+  <main class="room">
+
+    <div class="ambient" id="ambient" aria-hidden="true"></div>
+
+    
+
+    <h1 class="sr-only">A greeting card for my love</h1>
+
+    <div class="stage">
+
+      <div class="card" id="card">
+
+        <div class="ground-shadow" aria-hidden="true"></div>
+
+        <div class="spread">
+
+          <!-- LEFT PAGE (letter) -->
+          <div class="page page-left paper-texture" id="pageLeft">
+
+            <span class="corner corner-tl">
+              <svg class="bloom rose" viewBox="0 0 60 60" aria-hidden="true">
+                <use href="#bloom" />
+              </svg>
+            </span>
+
+            <span class="corner corner-bl lavender">
+              <svg class="bloom" viewBox="0 0 60 60" aria-hidden="true">
+                <use href="#bloom" />
+              </svg>
+            </span>
+
+            <span class="seal" aria-hidden="true">L</span>
+
+            <div class="page-inner">
+
+              <svg class="sprig sprig-top" viewBox="0 0 120 40" aria-hidden="true">
+                <use href="#sprig" />
+              </svg>
+
+              <div class="letter">
+
+                <p class="script salute">
+                  My Love, My Wife,
+                </p>
+
+                <div class="letter-body">
+
+                  <p class="love-line">
+                    <span>I Love you Veenu ❤️</span>
+
+                    <img src="image.png" alt="" class="love-sticker" />
+                  </p>
+                   <p>Good Morning Bubi, I hope you slept well. And you are feeling Fantastic.</p>
+                  <p>
+                    When you said that you were feeling cold and low on mind,
+                    I wish I could have been there last night.
+                    Even if all I could do was sit beside you while you slept.
+                  </p>
+     <p>
+                    Please remember this &mdash; you never have to face anything alone. On the
+                    good days, on the difficult days, when you&rsquo;re smiling and even when
+                    you&rsquo;re feeling low&hellip; I&rsquo;m here.
+                  </p>
+                  <p>
+                    Whatever happens, whatever life brings us, I&rsquo;ll always be beside you. Will meet next week,
+                    till then Eat well,and let yourself be taken care of.
+                  </p>
+
+                  <p>
+                    You are my wife. You are precious to me. And you mean more to me than words can
+                    ever explain. ❤️
+                  </p>
+
+                  <p class="script sign">
+                    Always yours in every life.
+                    <br>
+                    <span class="hand">Your Husband ❤️</span>
+                  </p>
+
+                </div>
+              </div>
+
+              <div class="page-footer">
+
+                <div class="heart-wrap">
+
+                  <button id="heartBtn" class="heart-btn" aria-label="Send a little love">
+                    ♥
+                  </button>
+
+                  <p class="hand love-note" id="loveNote">
+                    I&rsquo;m always with you ❤️
+                  </p>
+
+                </div>
+
+                <img src="./kitten.png" alt="A sleepy little orange and white kitten curled up" loading="lazy"
+                  width="816" height="816" class="kitten" />
+
+              </div>
+
+            </div>
+          </div>
+
+
+          <!-- RIGHT PAGE (photo frame) -->
+          <div class="page page-right paper-texture">
+
+            <span class="corner corner-tr lavender">
+              <svg class="bloom" viewBox="0 0 60 60" aria-hidden="true">
+                <use href="#bloom" />
+              </svg>
+            </span>
+
+            <span class="corner corner-br">
+              <svg class="bloom rose" viewBox="0 0 60 60" aria-hidden="true">
+                <use href="#bloom" />
+              </svg>
+            </span>
+
+            <div class="frame-col">
+
+              <svg class="bloom bloom-sm lavender" viewBox="0 0 60 60" aria-hidden="true">
+                <use href="#bloom" />
+              </svg>
+
+              <div class="frame paper-texture">
+
+                <div class="photo-slot" id="photoSlot">
+
+                  <img src="Image2.jpeg" class="photo-img" alt="My favorite person" />
+
+                </div>
+
+                <span class="frame-bloom frame-bloom-tl">
+
+                  <svg class="bloom rose" viewBox="0 0 60 60" aria-hidden="true">
+                    <use href="#bloom" />
+                  </svg>
+
+                </span>
+
+                <span class="frame-bloom frame-bloom-br">
+
+                  <svg class="bloom bloom-sm lavender" viewBox="0 0 60 60" aria-hidden="true">
+                    <use href="#bloom" />
+                  </svg>
+
+                </span>
+
+              </div>
+
+              <span class="ribbon">
+                my favorite person ❤️
+              </span>
+
+              <svg class="sprig sprig-flip" viewBox="0 0 120 40" aria-hidden="true">
+                <use href="#sprig" />
+              </svg>
+
+            </div>
+          </div>
+
+
+          <!-- CENTER POP-UP CAT BOUQUET -->
+          <img src="./cat-bouquet.png" alt="A little cat holding a bouquet of flowers" loading="lazy" width="1024"
+            height="1024" class="bouquet" id="bouquet" />
+
+          <!-- CENTER POP-UP CAT BOUQUET -->
+          <img src="kpop.png" alt="A little cat holding a bouquet of flowers" loading="lazy" width="1024" height="1024"
+            class="bouquet1" id="bouquet" />
+
+            <!-- CENTER POP-UP CAT BOUQUET -->
+          <img src="image copy 2.png" alt="A little cat holding a bouquet of flowers" loading="lazy" width="1024" height="1024"
+            class="bouquet3" id="bouquet" />
+
+
+          <!-- FRONT COVER -->
+          <div class="cover" id="cover">
+
+            <img src="./image copy.png" alt="" class="bouquet2"  />
+
+            <button class="cover-face paper-texture" id="coverBtn" aria-label="Open the card">
+
+              <span class="cover-border" aria-hidden="true"></span>
+
+              <svg class="bloom cover-b1 rose" viewBox="0 0 60 60" aria-hidden="true">
+                <use href="#bloom" />
+              </svg>
+
+              <svg class="bloom bloom-sm cover-b2 lavender" viewBox="0 0 60 60" aria-hidden="true">
+                <use href="#bloom" />
+              </svg>
+
+              <svg class="bloom bloom-sm cover-b3 lavender" viewBox="0 0 60 60" aria-hidden="true">
+                <use href="#bloom" />
+              </svg>
+
+              <svg class="bloom cover-b4 rose" viewBox="0 0 60 60" aria-hidden="true">
+                <use href="#bloom" />
+              </svg>
+
+              <span class="glow-heart">
+
+                <span class="glow" aria-hidden="true"></span>
+
+                <span class="glow-mark">
+                  ♥
+                </span>
+
+              </span>
+
+              <span class="script cover-title">
+                For My Love ❤️
+              </span>
+
+              <svg class="sprig sprig-cover" viewBox="0 0 120 40" aria-hidden="true">
+                <use href="#sprig" />
+              </svg>
+
+              <span class="cover-sub">
+                Open this whenever you need a little warmth.
+              </span>
+
+              <span class="hand cover-tap">
+                Tap to open ❤️
+              </span>
+
+            </button>
+
+            <div class="cover-inner paper-texture" aria-hidden="true">
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+
+      <div class="close-row">
+
+        <button id="closeBtn" class="hand close-btn">
+          Love You❤️
+        </button>
+
+      </div>
+
+    </div>
+  </main>
+
+
+  <!-- shared SVG shapes -->
+  <svg width="0" height="0" style="position: absolute" aria-hidden="true">
+
+    <g id="sprig">
+
+      <path d="M4 34 C 34 34, 62 24, 116 8" fill="none" stroke="currentColor" stroke-width="1.1"
+        stroke-linecap="round" />
+
+      <ellipse cx="18" cy="31" rx="7" ry="3.2" fill="currentColor" opacity="0.5" transform="rotate(-22 18 31)" />
+
+      <ellipse cx="36" cy="26.6" rx="7" ry="3.2" fill="currentColor" opacity="0.5" transform="rotate(-25 36 26.6)" />
+
+      <ellipse cx="54" cy="22.2" rx="7" ry="3.2" fill="currentColor" opacity="0.5" transform="rotate(-28 54 22.2)" />
+
+      <ellipse cx="72" cy="17.8" rx="7" ry="3.2" fill="currentColor" opacity="0.5" transform="rotate(-31 72 17.8)" />
+
+      <ellipse cx="90" cy="13.4" rx="7" ry="3.2" fill="currentColor" opacity="0.5" transform="rotate(-34 90 13.4)" />
+
+    </g>
+
+
+    <g id="bloom">
+
+      <ellipse cx="30" cy="17" rx="7.5" ry="12" fill="currentColor" opacity="0.42" transform="rotate(0 30 30)" />
+
+      <ellipse cx="30" cy="17" rx="7.5" ry="12" fill="currentColor" opacity="0.42" transform="rotate(60 30 30)" />
+
+      <ellipse cx="30" cy="17" rx="7.5" ry="12" fill="currentColor" opacity="0.42" transform="rotate(120 30 30)" />
+
+      <ellipse cx="30" cy="17" rx="7.5" ry="12" fill="currentColor" opacity="0.42" transform="rotate(180 30 30)" />
+
+      <ellipse cx="30" cy="17" rx="7.5" ry="12" fill="currentColor" opacity="0.42" transform="rotate(240 30 30)" />
+
+      <ellipse cx="30" cy="17" rx="7.5" ry="12" fill="currentColor" opacity="0.42" transform="rotate(300 30 30)" />
+
+      <circle cx="30" cy="30" r="5.2" fill="currentColor" opacity="0.75" />
+
+    </g>
+
+  </svg>
+
+
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
